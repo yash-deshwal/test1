@@ -1,0 +1,3 @@
+/*C12*/SET SCHEMA PUBLIC
+create table quiz_question (id varchar(255) not null, question varchar(255), primary key (id))
+create table quiz_user (id varchar(255) not null, address varchar(255), name varchar(255), primary key (id))
